@@ -1,41 +1,32 @@
 {
-  "name": "rc-dropdown-party",
-  "version": "0.0.3",
-  "description": "A customizable dropdown component built with Next.js",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "homepage": "https://github.com/mehran13chartbox/rc-dropdown-party",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "clean": "rm -rf dist",
-    "build:lib": "tsc --outDir dist"
-  },
-  "keywords": [
-    "nextjs",
-    "dropdown",
-    "react",
-    "component"
-  ],
-  "author": "Mehran Mahmoudkhani",
-  "license": "MIT",
-  "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
-  },
-  "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.13"
+    "name": "rc-dropdown-party",
+    "version": "0.0.4",
+    "description": "A customizable dropdown component built with React and TypeScript",
+    "main": "dist/index.js",
+    "module": "dist/index.esm.js",
+    "types": "dist/index.d.ts",
+    "files": [
+      "dist"
+    ],
+    "scripts": {
+      "build": "rollup -c",
+      "clean": "rm -rf dist"
+    },
+    "keywords": ["react", "dropdown", "component", "ui"],
+    "author": "Mehran Mahmoudkhani",
+    "license": "MIT",
+    "peerDependencies": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    },
+    "devDependencies": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0",
+      "typescript": "^5.0.0",
+      "rollup": "latest",
+      "rollup-plugin-typescript2": "latest",
+      "rollup-plugin-peer-deps-external": "latest",
+      "rollup-plugin-terser": "latest"
+    }
   }
-}
+  

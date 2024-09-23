@@ -1,4 +1,5 @@
-app
+src/
 node_modules
-.next
-dist
+rollup.config.js
+tsconfig.json
+.gitignore

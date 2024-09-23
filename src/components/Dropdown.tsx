@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { FC } from 'react';
 
-interface DropdownProps {
+export interface DropdownProps {
   label: string;
   options: string[];
 }
 
-const Dropdown: React.FC<DropdownProps> = ({ label, options }) => {
+const Dropdown: FC<DropdownProps> = ({ label, options }) => {
   return (
     <div>
       <label>{label}</label>
