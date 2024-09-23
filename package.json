@@ -1,6 +1,6 @@
 {
   "name": "rc-dropdown-party",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A customizable dropdown component built with Next.js",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -19,7 +19,7 @@
     "react",
     "component"
   ],
-  "author": "Your Name",
+  "author": "Mehran Mahmoudkhani",
   "license": "MIT",
   "dependencies": {
     "next": "latest",
