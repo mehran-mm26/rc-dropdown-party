@@ -1,17 +1,30 @@
 {
   "name": "rc-dropdown-party",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.1",
+  "description": "A customizable dropdown component built with Next.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "keywords": [
+    "nextjs",
+    "dropdown",
+    "react",
+    "component"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.13"
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   },
   "devDependencies": {
     "typescript": "^5",
