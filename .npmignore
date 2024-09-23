@@ -1,4 +1,4 @@
-src/pages
+app
 node_modules
 .next
 dist
