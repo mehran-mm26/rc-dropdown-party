@@ -11,7 +11,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "clean": "rm -rf dist",
+    "build:lib": "tsc --outDir dist"
   },
   "keywords": [
     "nextjs",
