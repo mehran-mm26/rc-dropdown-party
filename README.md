@@ -9,7 +9,7 @@ npm install rc-dropdown-party
 
 ##Usage
 
-```js
+```
 import { Dropdown } from 'rc-dropdown-party';
 
 const options = ['Option 1', 'Option 2', 'Option 3'];
